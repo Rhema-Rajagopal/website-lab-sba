@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "spline sans", sans-serif;
+  color: #777;
+  line-height: 1.7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  color: #222;
+}
+a {
+  color: #222;
+  text-decoration: none;
+  transition: all 0.4s;
+  font-weight: 600;
+}
+a:hover {
+  color: #f58d17;
+}
+img {
+  width: 100%;
+}
+
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.shadow-on-hover {
+  transition: all 0.3s;
+}
+.shadow-on-hover:hover {
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+  border: 0;
+  padding: 14px 38px;
+}
+.btn-brand {
+  color: #fff;
+  font-weight: 500;
+  border-color: #f58d17;
+  background-color: #f58d17;
+}
+
+.btn-brand:hover {
+  border-color: #ca7310;
+  background-color: #ca7310;
+  color: #fff;
+}
+
+.slide-1 {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0, 0.5),
+    url(Images/bg-hero.jpg)
+  );
+}
+
+.slide-1 {
+  background-image: url("Images/bg-hero.jpg");
+}
+.slide-2 {
+  background-image: url("Images/hero.png");
+}
+
+/* .bg-cover {
+} */
+#heroslider h6::after,
+#heroslider h6::backdrop {
+  content: " ";
+  width: 20px;
+  height: 40px;
+  background-color: #ffffff;
+  display: inline-block;
+  margin: 10px;
+}
+
+.bg-dark {
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(0, 0, 0, 0.767);
+  width: 40px;
+  height: 70px;
+  margin: auto;
+}
+
+/* *************** */
+
+/* About */
+#about .divider {
+  width: 60px;
+  height: 2px;
+  display: block;
+  background-color: #f58d17;
+}
+
+#menu .divider {
+  width: 60px;
+  height: 2px;
+  display: block;
+  background-color: #f58d17;
+}
+#reservation .divider {
+  width: 60px;
+  height: 2px;
+  display: block;
+  background-color: #f58d17;
+}
+
+#catering .divider {
+  width: 60px;
+  height: 2px;
+  display: block;
+  background-color: #f58d17;
+  text-align: center;
+  justify-content: center;
+}
+/* Intro text */
+.intro-text {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.intro-text p {
+  max-width: 500px;
+  margin: 16px auto 0 auto;
+}
+/* ***************************** */
+
+/* Menu */
+#menu .nav-pills .nav-link {
+  background-color: white;
+  margin-left: 8px;
+  margin-right: 8px;
+  color: #222;
+  border-radius: 100px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+#menu .nav-pills .nav-link.active {
+  background-color: #f58d17;
+  color: white;
+}
+
+/* footer */
+
+/*****************************/
+footer {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url(Images/bg-hero.jpg);
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.footer-top {
+  margin-top: 30px;
+}
+
+footer p,
+footer .social-links a {
+  color: rgba(255, 255, 255, 0.75);
+}
+footer a {
+  font-weight: normal;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+footer img {
+  max-width: 175px;
+}
+
+.footer-bottom {
+  padding-top: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.heroImg {
+  background-image: url("Images/hero.png");
+
+  height: 100%x;
+  width: 100%;
+}
